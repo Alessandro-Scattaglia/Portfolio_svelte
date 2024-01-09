@@ -2,15 +2,7 @@
     import pietro from "../immagini/pietro.jpg";
     import covid from "../immagini/covid19.png";
     import Nav from "../../lib/components/nav.svelte";
-    if (typeof window !== "undefined") {
-        let prevScrollPos = window.pageYOffset;
-        window.onscroll = function () {
-            const currentScrollPos = window.pageYOffset;
-            document.querySelector(".topnav").style.top =
-                prevScrollPos > currentScrollPos ? "0" : "-70px";
-            prevScrollPos = currentScrollPos;
-        };
-    }
+    
 </script>
 
 <main>

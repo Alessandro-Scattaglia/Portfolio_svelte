@@ -1,15 +1,7 @@
 <script>
     import donna from "../immagini/donna.jpg";
     import Nav from "../../lib/components/nav.svelte";
-    if (typeof window !== "undefined") {
-        let prevScrollPos = window.pageYOffset;
-        window.onscroll = function () {
-            const currentScrollPos = window.pageYOffset;
-            document.querySelector(".topnav").style.top =
-                prevScrollPos > currentScrollPos ? "0" : "-70px";
-            prevScrollPos = currentScrollPos;
-        };
-    }
+  
 </script>
 
 <main>
