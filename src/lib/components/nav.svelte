@@ -9,11 +9,12 @@
             prevScrollPos = currentScrollPos;
         };  
     }
+    import myImage from "./immagini/logo.png"
 </script>
 
 <section>
     <div class="topnav">
-        <img class="logo" src = "https://github.com/Alessandro-Scattaglia/Portfolio_svelte/blob/main/src/lib/components/immagini/logo.png" alt="logo_agnelli.png" />
+        <img class="logo" src = "{myImage}" alt="logo_agnelli.png" />
         <a class="active" href="/"><b>Home</b></a>
         <a href="/../2023-2024"><b>2023</b></a>
         <a href="/../2022-2023"><b>2022</b></a>
