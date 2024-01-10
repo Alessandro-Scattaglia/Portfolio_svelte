@@ -13,7 +13,7 @@
 
 <section>
     <div class="topnav">
-        <img class="logo" src = "https://agnelli.it/wp-content/uploads/2021/02/logo_agnelli.png" alt="logo_agnelli.png" />
+        <img class="logo" src = "https://i.ibb.co/cT54jBm/logo.png" alt="logo_agnelli.png" />
         <a class="active" href="/"><b>Home</b></a>
         <a href="/../2023-2024"><b>2023</b></a>
         <a href="/../2022-2023"><b>2022</b></a>
