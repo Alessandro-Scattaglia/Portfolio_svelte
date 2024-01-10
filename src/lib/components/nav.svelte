@@ -9,7 +9,7 @@
             prevScrollPos = currentScrollPos;
         };  
     }
-    import myImage from "./immagini/logo.png"
+    import myImage from "../components/immagini/logo.png"
 </script>
 
 <section>
