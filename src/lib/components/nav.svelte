@@ -13,12 +13,12 @@
 
 <section>
     <div class="topnav">
-        <img class="logo" src = "https://agnelli.it/wp-content/uploads/2021/02/logo_agnelli.png" alt="logo.png" />
+        <img class="logo" src = "https://agnelli.it/wp-content/uploads/2021/02/logo_agnelli.png" alt="logo_agnelli.png" />
         <a class="active" href="/"><b>Home</b></a>
-        <a href="/2023-2024"><b>2023</b></a>
-        <a href="/2022-2023"><b>2022</b></a>
-        <a href="/2021-2022"><b>2021</b></a>
-        <a href="/2020-2021"><b>2020</b></a>
+        <a href="/../2023-2024"><b>2023</b></a>
+        <a href="/../2022-2023"><b>2022</b></a>
+        <a href="/../2021-2022"><b>2021</b></a>
+        <a href="/../2020-2021"><b>2020</b></a>
     </div>
 </section>
 <style>
