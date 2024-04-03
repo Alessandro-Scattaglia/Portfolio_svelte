@@ -153,4 +153,9 @@
         color: #777;
         margin-top: 20px;
     }
+    ::selection {
+    background-color: rgb(10, 226, 10); 
+      color: white; 
+    }
+
 </style>

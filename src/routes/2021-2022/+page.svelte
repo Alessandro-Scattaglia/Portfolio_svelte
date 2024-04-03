@@ -115,6 +115,11 @@
     :root {
         background-color: #207cca;
     }
+    ::selection {
+    background-color: rgb(10, 226, 10); 
+      color: white; 
+    }
+
 
     main {
         font-family: "Arial", sans-serif;

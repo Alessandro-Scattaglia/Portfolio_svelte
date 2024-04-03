@@ -135,6 +135,11 @@
 
         border-radius: 4px;
     }
+    ::selection {
+    background-color: rgb(10, 226, 10); 
+      color: white; 
+    }
+
 
     h2 {
         padding: 10px;

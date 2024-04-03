@@ -87,6 +87,10 @@
         color: #333;
         margin-bottom: 20px;
     }
+    ::selection {
+    background-color: rgb(10, 226, 10); 
+      color: white; 
+    }
 
     h1 {
         text-align: center;
