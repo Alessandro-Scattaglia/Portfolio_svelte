@@ -10,7 +10,6 @@
     }
 </script>
 
-
 <section>
     <div class="topnav">
         <img
