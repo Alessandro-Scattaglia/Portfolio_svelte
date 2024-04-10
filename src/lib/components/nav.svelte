@@ -8,8 +8,6 @@
             prevScrollPos = currentScrollPos;
         };
     }
-
-let url = "src/routes/immagini/logo.png";
 </script>
 
 
@@ -17,14 +15,14 @@ let url = "src/routes/immagini/logo.png";
     <div class="topnav">
         <img
             class="logo"
-            src={url}
-            alt="logo.png"
+            src="./immagini/logo.png"
+            alt="logo"
         />
-        <a class="active" href="/Portfolio_svelte"><b>Home</b></a>
-        <a href="-/Portfolio_svelte/2023-2024"><b>2023</b></a>
-        <a href="./Portfolio_svelte/2022-2023"><b>2022</b></a>
-        <a href="./Portfolio_svelte/2021-2022"><b>2021</b></a>
-        <a href="./Portfolio_svelte/2020-2021"><b>2020</b></a>
+        <a class="active" href="/"><b>Home</b></a>
+        <a href="/2023-2024"><b>2023</b></a>
+        <a href="/2022-2023"><b>2022</b></a>
+        <a href="/2021-2022"><b>2021</b></a>
+        <a href="/2020-2021"><b>2020</b></a>
     </div>
 </section>
 
