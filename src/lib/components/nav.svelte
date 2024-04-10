@@ -15,7 +15,7 @@
     <div class="topnav">
         <img
             class="logo"
-            src="./immagini/logo.png"
+            src="/immagini/logo.png"
             alt="logo"
         />
         <a class="active" href="/"><b>Home</b></a>

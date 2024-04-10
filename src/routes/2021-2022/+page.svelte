@@ -1,5 +1,4 @@
 <script>
-    import donna from "../immagini/donna.jpg";
     import Nav from "../../lib/components/nav.svelte";
   
 </script>
@@ -57,7 +56,7 @@
             contro la violenza di genere.
         </p>
         <div class="immg1">
-            <img class="img1" src={donna} alt="donna.jpg" />
+            <img class="img1" src="/immagini/donna.jpg" alt="donna.jpg" />
         </div>
         <p>
             Abbiamo discusso approfonditamente delle implicazioni di questo

@@ -1,7 +1,5 @@
 <script>
-    import Nav from "../../lib/components/nav.svelte";
-    import beccaria from "../immagini/beccaria.jpg";
-   
+    import Nav from "../../lib/components/nav.svelte";   
 </script>
 
 <main>
@@ -21,7 +19,7 @@
             suo influsso sulla filosofia del diritto penale.
         </p>
         <div class="immg1">
-            <img class="img1" src={beccaria} alt="beccaria.jpg" />
+            <img class="img1" src="/immagini/beccaria.jpg" alt="beccaria.jpg" />
         </div>
         <p>
             Cesare Beccaria è famoso per il suo libro "Dei delitti e delle
