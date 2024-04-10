@@ -26,8 +26,11 @@ const config = {
         adapter: adapter(),
         paths: {
             base: '/Portfolio_svelte',
-        }
+        },    prerender: {
+        handleHttpError: "warn"
     }
+    },
+
 };
 
 export default config;
