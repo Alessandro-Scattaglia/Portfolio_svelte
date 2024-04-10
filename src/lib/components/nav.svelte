@@ -14,14 +14,14 @@
     <div class="topnav">
         <img
             class="logo"
-            src="/immagini/logo.png"
+            src="/Portfolio_svelte/immagini/logo.png"
             alt="logo"
         />
         <a class="active" href="/"><b>Home</b></a>
-        <a href="./2023-2024"><b>2023</b></a>
-        <a href="./2022-2023"><b>2022</b></a>
-        <a href="./2021-2022"><b>2021</b></a>
-        <a href="./2020-2021"><b>2020</b></a>
+        <a href="/Portfolio_svelte/2023-2024"><b>2023</b></a>
+        <a href="/Portfolio_svelte/2022-2023"><b>2022</b></a>
+        <a href="/Portfolio_svelte/2021-2022"><b>2021</b></a>
+        <a href="/Portfolio_svelte/2020-2021"><b>2020</b></a>
     </div>
 </section>
 

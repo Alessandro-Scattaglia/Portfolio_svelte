@@ -56,7 +56,7 @@
             contro la violenza di genere.
         </p>
         <div class="immg1">
-            <img class="img1" src="/immagini/donna.jpg" alt="donna.jpg" />
+            <img class="img1" src="/Portfolio_svelte/immagini/donna.jpg" alt="donna.jpg" />
         </div>
         <p>
             Abbiamo discusso approfonditamente delle implicazioni di questo

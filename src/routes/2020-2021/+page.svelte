@@ -26,7 +26,7 @@
         <div class="immg1">
             <img
                 class="img1"
-                src="/immagini/pietro.jpg"
+                src="/Portfolio_svelte/immagini/pietro.jpg"
                 width="1800"
                 height="1014"
                 alt="pietro.jpg"
@@ -68,7 +68,7 @@
             internazionale nella gestione delle pandemie.
         </p>
         <div class="immg2">
-            <img class="img2" src="/immagini/covid19.png" alt="covid19.png" />
+            <img class="img2" src="/Portfolio_svelte/immagini/covid19.png" alt="covid19.png" />
         </div>
         <p>
             Abbiamo esplorato i modi in cui il virus si diffonde, i sintomi

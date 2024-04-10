@@ -19,7 +19,7 @@
             suo influsso sulla filosofia del diritto penale.
         </p>
         <div class="immg1">
-            <img class="img1" src="/immagini/beccaria.jpg" alt="beccaria.jpg" />
+            <img class="img1" src="/Portfolio_svelte/immagini/beccaria.jpg" alt="beccaria.jpg" />
         </div>
         <p>
             Cesare Beccaria è famoso per il suo libro "Dei delitti e delle
