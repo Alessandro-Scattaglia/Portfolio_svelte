@@ -2,7 +2,6 @@
     import pietro from "../immagini/pietro.jpg";
     import covid from "../immagini/covid19.png";
     import Nav from "../../lib/components/nav.svelte";
-    
 </script>
 
 <main>
@@ -136,10 +135,9 @@
         border-radius: 4px;
     }
     ::selection {
-    background-color: rgb(10, 226, 10); 
-      color: white; 
+        background-color: rgb(10, 226, 10);
+        color: white;
     }
-
 
     h2 {
         padding: 10px;

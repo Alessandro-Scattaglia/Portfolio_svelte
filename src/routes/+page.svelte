@@ -88,8 +88,8 @@
         margin-bottom: 20px;
     }
     ::selection {
-    background-color: rgb(10, 226, 10); 
-      color: white; 
+        background-color: rgb(10, 226, 10);
+        color: white;
     }
 
     h1 {
