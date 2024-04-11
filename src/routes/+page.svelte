@@ -16,7 +16,7 @@
                     href="https://agnelli.it/"
                     target="_blank">Istituto Internazionale Edoardo Agnelli</a
                 >. Questo è il mio portfolio su tutti gli argomenti che abbiamo
-                trattato durante i 5 anni qui.
+                trattato durante i 5 anni qui. Il sito verrà aggiornato per aggiungere nuovi contenuti trattati in classe per ogni anno.
             </h2>
             <br />
             <h2>

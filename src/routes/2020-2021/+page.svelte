@@ -55,7 +55,7 @@
                 allowfullscreen
             />
 
-            <p>Ecco a voi l'intervista a Pietro Bartolo il 18 novembre 2020</p>
+            <p>Ecco a voi l'intervista a <br>Pietro Bartolo il 18 novembre 2020</p>
         </div>
         <br />
         <h2>BIOLOGIA</h2>
@@ -79,6 +79,7 @@
             per comprendere e risolvere le sfide emergenti nella salute pubblica
             e nella medicina.
         </p>
+            
         <h2>INFORMATICA</h2>
         <p>
             Quest'anno, nel corso delle lezioni di informatica, abbiamo avuto
@@ -163,7 +164,7 @@
 
     .container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 

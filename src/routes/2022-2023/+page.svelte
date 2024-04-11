@@ -1,5 +1,5 @@
 <script>
-    import Nav from "../../lib/components/nav.svelte";   
+    import Nav from "../../lib/components/nav.svelte";
 </script>
 
 <main>
@@ -19,7 +19,11 @@
             suo influsso sulla filosofia del diritto penale.
         </p>
         <div class="immg1">
-            <img class="img1" src="/Portfolio_svelte/immagini/beccaria.jpg" alt="beccaria.jpg" />
+            <img
+                class="img1"
+                src="/Portfolio_svelte/immagini/beccaria.jpg"
+                alt="beccaria.jpg"
+            />
         </div>
         <p>
             Cesare Beccaria è famoso per il suo libro "Dei delitti e delle
@@ -78,6 +82,44 @@
                 webkitallowfullscreen="true"
             />
         </p>
+
+        <h2>INFORMATICA</h2>
+        <p>
+            Durante la materia di Informatica di quest'anno abbiamo approfondito
+            il funzionamento del codice fiscale e degli algoritmi che ci stanno
+            dietro. Abbiamo quindi creato due programmi in grado di generare il
+            codice fiscale, date le informazioni necessarie dall'utente, e
+            estrapolarle dato un codice fiscale sempre dall'utente. Ecco sotto i
+            due programmi funzionanti prendendo come esempio i miei dati.
+        </p>
+        
+
+        <p>
+            Questo video rappresenta l'estrapolazione dei dati dopo aver
+            inserito il codice fiscale
+        </p>
+        <div>
+        <video width="640" height="300" controls>
+            <source
+                src="/Portfolio_svelte/immagini/estrapola_dati_CF.mp4"
+                type="video/mp4"
+            />
+            Il tuo browser non supporta il tag video.
+        </video>
+
+    </div>
+        <p>
+            Mentre questo video rappresenta la generazione del codice fiscale
+            secondo le informazioni fornite.
+        </p>
+
+        <video width="640" height="300" controls>
+            <source
+                src="/Portfolio_svelte/immagini/genera_codice_fiscale.mp4"
+                type="video/mp4"
+            />
+            Il tuo browser non supporta il tag video.
+        </video>
     </div>
 
     <footer>
@@ -152,8 +194,10 @@
         margin-top: 20px;
     }
     ::selection {
-    background-color: rgb(10, 226, 10); 
-      color: white; 
+        background-color: rgb(10, 226, 10);
+        color: white;
     }
-
+    div{
+        text-align: center;
+    }
 </style>
