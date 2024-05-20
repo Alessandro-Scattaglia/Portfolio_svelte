@@ -47,7 +47,7 @@
             width="100%"
             height="500px"
             style="border: none;"
-        />
+        ></iframe>
         <p>
             Inoltre, per lettere italiane, abbiamo scelto un personaggio legato
             alle "Agende rosse" o ad esse collegato, ed io ho optato per Padre
@@ -63,26 +63,22 @@
             allowfullscreen="true"
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
-        />
+        ></iframe>
         <h2>INGLESE</h2>
         <p>
-          
-                Durante la materia di inglese di quest'anno, abbiamo realizzato delle presentazioni PowerPoint su argomenti a nostra scelta legati all'informatica. Ho scelto di parlare del <a href="https://it.wikipedia.org/wiki/Metaverso" target="_blank">Metaverso</a>.<br />
-                Ora vi presenterò il mio PowerPoint sul Metaverso che ho preparato.
-        
-            
-            <br /><br /><br />
-            <iframe
-                title="presentazione3"
-                src="https://docs.google.com/presentation/d/e/2PACX-1vQ58p0XMuVoi4tmcnpGMOfmbUyB-jLEPZEHCg1YrG1i2aUcSO7EYmmjdjRrfAgLiy0l1B1TwW07JNdO/embed?start=true&loop=true&delayms=3000"
-                frameborder="0"
-                width="100%"
-                height="569px"
-                allowfullscreen="true"
-                mozallowfullscreen="true"
-                webkitallowfullscreen="true"
-            />
+            Durante la materia di inglese di quest'anno, abbiamo realizzato delle presentazioni PowerPoint su argomenti a nostra scelta legati all'informatica. Ho scelto di parlare del <a href="https://it.wikipedia.org/wiki/Metaverso" target="_blank">Metaverso</a>.<br />
+            Ora vi presenterò il mio PowerPoint sul Metaverso che ho preparato.
         </p>
+        <iframe
+            title="presentazione3"
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQ58p0XMuVoi4tmcnpGMOfmbUyB-jLEPZEHCg1YrG1i2aUcSO7EYmmjdjRrfAgLiy0l1B1TwW07JNdO/embed?start=true&loop=true&delayms=3000"
+            frameborder="0"
+            width="100%"
+            height="569px"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+        ></iframe>
 
         <h2>INFORMATICA</h2>
         <p>
@@ -93,28 +89,25 @@
             estrapolarle dato un codice fiscale sempre dall'utente. Ecco sotto i
             due programmi funzionanti prendendo come esempio i miei dati.
         </p>
-        
 
         <p>
             Questo video rappresenta l'estrapolazione dei dati dopo aver
-            inserito il codice fiscale
+            inserito il codice fiscale.
         </p>
         <div>
-        <video width="640" height="300" controls>
-            <source
-                src="/Portfolio_svelte/immagini/estrapola_dati_CF.mp4"
-                type="video/mp4"
-            />
-            Il tuo browser non supporta il tag video.
-        </video>
-
-    </div>
+            <video width="100%" height="300" controls>
+                <source
+                    src="/Portfolio_svelte/immagini/estrapola_dati_CF.mp4"
+                    type="video/mp4"
+                />
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
         <p>
             Mentre questo video rappresenta la generazione del codice fiscale
             secondo le informazioni fornite.
         </p>
-
-        <video width="640" height="300" controls>
+        <video width="100%" height="300" controls>
             <source
                 src="/Portfolio_svelte/immagini/genera_codice_fiscale.mp4"
                 type="video/mp4"
@@ -132,14 +125,22 @@
     iframe {
         border-radius: 40px;
     }
+
     :root {
         background-color: #207cca;
     }
+
+    ::selection {
+        background-color: rgb(10, 226, 10);
+        color: white;
+    }
+
     a {
         text-decoration: none;
         color: #007bff;
         cursor: pointer;
     }
+
     a:hover {
         text-decoration: underline;
     }
@@ -160,6 +161,7 @@
         color: #333;
         margin-bottom: 20px;
     }
+
     h1 {
         text-align: center;
         font-size: 70px;
@@ -170,7 +172,6 @@
     .centro {
         margin: auto;
         width: 100%;
-
         border-radius: 4px;
     }
 
@@ -195,18 +196,90 @@
     .img1 {
         border-radius: 20px;
         width: 70%;
-        height: 70%;
+        height: auto;
     }
+
     footer {
         text-align: center;
         color: #777;
         margin-top: 20px;
     }
-    ::selection {
-        background-color: rgb(10, 226, 10);
-        color: white;
+
+    @media (max-width: 768px) {
+        main {
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: large;
+        }
+
+        p {
+            font-size: medium;
+        }
+
+        .img1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .container iframe {
+            width: 100%;
+            height: auto;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
     }
-    div{
-        text-align: center;
+
+    @media (max-width: 480px) {
+        main {
+            margin: 10px auto;
+            padding: 5px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: medium;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        .img1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        .container iframe {
+            width: 100%;
+            height: auto;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
     }
 </style>

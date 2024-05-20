@@ -53,8 +53,7 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
-            />
-
+            ></iframe>
             <p>Ecco a voi l'intervista a <br>Pietro Bartolo il 18 novembre 2020</p>
         </div>
         <br />
@@ -116,6 +115,7 @@
         color: #333;
         margin-bottom: 20px;
     }
+
     .video1 {
         border-radius: 15px;
     }
@@ -130,9 +130,9 @@
     .centro {
         margin: auto;
         width: 100%;
-
         border-radius: 4px;
     }
+
     ::selection {
         background-color: rgb(10, 226, 10);
         color: white;
@@ -152,40 +152,105 @@
         font-size: x-large;
     }
 
-    .immg1 {
+    .immg1, .immg2 {
         text-align: center;
     }
 
-    .img1 {
+    .img1, .img2 {
         border-radius: 20px;
         width: 70%;
-        height: 70%;
+        height: auto;
     }
 
     .container {
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        gap: 15px;
+        padding: 15px;
     }
 
-    .immg2 {
-        text-align: center;
-    }
-    .img2 {
-        width: 50%;
-        height: 50%;
-    }
     footer {
         text-align: center;
         color: #777;
         margin-top: 20px;
     }
+
     a {
         text-decoration: none;
         color: #007bff;
         cursor: pointer;
     }
+
     a:hover {
         text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        main {
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: large;
+        }
+
+        p {
+            font-size: medium;
+        }
+
+        .img1, .img2 {
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .video1 {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 480px) {
+        main {
+            margin: 10px auto;
+            padding: 5px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: medium;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        .img1, .img2 {
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        .video1 {
+            width: 100%;
+            height: auto;
+        }
     }
 </style>

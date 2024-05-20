@@ -1,6 +1,5 @@
 <script>
     import Nav from "../../lib/components/nav.svelte";
-  
 </script>
 
 <main>
@@ -23,7 +22,7 @@
             <a
                 href="https://it.wikipedia.org/wiki/Paolo_Borsellino"
                 target="_blank">Paolo Borsellino</a
-            >.<br /> <br />La nostra scuola, l'Istituto Edoardo Agnelli, ci ha
+            >.<br /><br />La nostra scuola, l'Istituto Edoardo Agnelli, ci ha
             offerto l'opportunità unica di intervistare Salvatore Borsellino, il
             fratello di uno dei due coraggiosi magistrati che hanno perso la
             vita nella lotta contro la mafia. L'intervista si è svolta il 5
@@ -41,7 +40,7 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
-                />
+                ></iframe>
             </div>
 
             <p class="p1">Ecco a voi l'intervista a Salvatore Borsellino</p>
@@ -66,7 +65,6 @@
             di queste tematiche ci ha offerto una prospettiva più ampia sulla
             lotta per i diritti delle donne e sulle sfide ancora presenti nella
             ricerca dell'uguaglianza di genere.
-            
         </p>
         <h2>INFORMATICA</h2>
         <p>
@@ -84,7 +82,7 @@
             allowfullscreen="true"
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
-        />
+        ></iframe>
     </div>
 
     <footer>
@@ -96,15 +94,18 @@
     :root {
         background-color: #207cca;
     }
+
     ::selection {
-    background-color: rgb(10, 226, 10); 
-      color: white; 
+        background-color: rgb(10, 226, 10);
+        color: white;
     }
+
     a {
         text-decoration: none;
         color: #007bff;
         cursor: pointer;
     }
+
     a:hover {
         text-decoration: underline;
     }
@@ -125,6 +126,7 @@
         color: #333;
         margin-bottom: 20px;
     }
+
     h1 {
         text-align: center;
         font-size: 70px;
@@ -135,7 +137,6 @@
     .centro {
         margin: auto;
         width: 100%;
-
         border-radius: 4px;
     }
 
@@ -160,7 +161,7 @@
     .img1 {
         border-radius: 20px;
         width: 70%;
-        height: 70%;
+        height: auto;
     }
 
     .container {
@@ -168,9 +169,78 @@
         justify-content: space-between;
         align-items: center;
     }
+
     footer {
         text-align: center;
         color: #777;
         margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        main {
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: large;
+        }
+
+        p {
+            font-size: medium;
+        }
+
+        .img1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .container iframe {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 480px) {
+        main {
+            margin: 10px auto;
+            padding: 5px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: medium;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        .img1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        .container iframe {
+            width: 100%;
+            height: auto;
+        }
     }
 </style>

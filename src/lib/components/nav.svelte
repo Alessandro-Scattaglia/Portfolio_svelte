@@ -69,4 +69,10 @@
         padding-top: 0px;
         max-width: 94px;
     }
+
+    @media all and (max-width: 480px) {
+        .topnav {
+            width: 100%;
+        }
+    }
 </style>

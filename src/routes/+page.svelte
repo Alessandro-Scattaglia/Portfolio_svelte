@@ -65,7 +65,6 @@
         <h4>Copyright &copy; Alessandro Scattaglia</h4>
     </footer>
 </main>
-
 <style>
     :root {
         background-color: #207cca;
@@ -116,5 +115,39 @@
     .right{
         text-align: justify;
         line-height: 200%;
+    }
+    
+
+    @media (max-width: 420px) {
+        h1 {
+            font-size: 40px;
+        }
+
+        header {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+        .right {
+            text-align: center;
+            line-height: normal;
+        }
+
+        .left {
+            text-align: center;
+        }
+
+        .img0 {
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .video1 {
+            width: 100%;
+        }
     }
 </style>
