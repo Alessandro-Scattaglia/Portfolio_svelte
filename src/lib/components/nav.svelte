@@ -74,5 +74,8 @@
         .topnav {
             width: 100%;
         }
+         .logo {
+            display: none; 
+        }
     }
 </style>
