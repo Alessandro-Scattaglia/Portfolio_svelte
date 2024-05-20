@@ -150,7 +150,7 @@
             lavoro. Questo è il mio:
         </p>
 
-        <a href="/Scattaglia_CV.pdf" download="Scattaglia_CV.pdf" class="cv"
+        <a href="/Scattaglia_CV.pdf" class="cv" download 
             >Scarica il mio CV</a
         >
         <br />
