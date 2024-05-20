@@ -4,14 +4,14 @@
 
 <main>
     <header>
-        <h1>Il mio portfolio di educazione civica</h1>
+        <h1>Portfolio <br> di Educazione Civica</h1>
     </header>
 
     <Nav />
     <div class="container">
         <div class="right">
             <h2>
-                Ciao, sono Alessandro Scattaglia della 5° informatica. Sono nato
+                Buongiorno, sono Alessandro Scattaglia della 5° Informatica. Sono nato
                 il 19 ottobre 2005 a Savigliano (CN) e frequento l'<a
                     href="https://agnelli.it/"
                     target="_blank">Istituto Internazionale Edoardo Agnelli</a
@@ -112,5 +112,9 @@
 
     .video1 {
         border-radius: 15px;
+    }
+    .right{
+        text-align: justify;
+        line-height: 200%;
     }
 </style>

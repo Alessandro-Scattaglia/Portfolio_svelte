@@ -66,10 +66,11 @@
         />
         <h2>INGLESE</h2>
         <p>
-            Durante la materia di inglese di quest'anno, abbiamo realizzato
-            delle presentazioni PowerPoint su argomenti a nostra scelta legati
-            all'informatica. Ho scelto di parlare del Metaverso.<br />
-            Ora vi presenterò il mio PowerPoint sul Metaverso che ho preparato.
+          
+                Durante la materia di inglese di quest'anno, abbiamo realizzato delle presentazioni PowerPoint su argomenti a nostra scelta legati all'informatica. Ho scelto di parlare del <a href="https://it.wikipedia.org/wiki/Metaverso" target="_blank">Metaverso</a>.<br />
+                Ora vi presenterò il mio PowerPoint sul Metaverso che ho preparato.
+        
+            
             <br /><br /><br />
             <iframe
                 title="presentazione3"
@@ -133,6 +134,14 @@
     }
     :root {
         background-color: #207cca;
+    }
+    a {
+        text-decoration: none;
+        color: #007bff;
+        cursor: pointer;
+    }
+    a:hover {
+        text-decoration: underline;
     }
 
     main {

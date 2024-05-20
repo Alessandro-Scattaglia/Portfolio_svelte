@@ -85,24 +85,6 @@
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
         />
-
-        <h2>TELECOMUNICAZIONI</h2>
-        <p>
-            Quest'anno, nel corso di telecomunicazioni, abbiamo avuto
-            l'opportunità di creare una presentazione PowerPoint che ha
-            affrontato in modo approfondito il tema delle porte logiche. Ecco a
-            voi la presentazione.
-        </p>
-        <iframe
-            title="presentazione"
-            src="https://docs.google.com/presentation/d/e/2PACX-1vQI8rGnFXxQ2ovqod7s2MgTu8ZX_bQ-r3KBV77QR7Bsec0U-KgCdDGWybZAvNYgK1ksKUwdZZiX7J-x/embed?start=true&loop=true&delayms=3000"
-            frameborder="0"
-            width="100%"
-            height="569"
-            allowfullscreen="true"
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-        />
     </div>
 
     <footer>
@@ -118,7 +100,14 @@
     background-color: rgb(10, 226, 10); 
       color: white; 
     }
-
+    a {
+        text-decoration: none;
+        color: #007bff;
+        cursor: pointer;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 
     main {
         font-family: "Arial", sans-serif;

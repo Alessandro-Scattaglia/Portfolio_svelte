@@ -180,4 +180,12 @@
         color: #777;
         margin-top: 20px;
     }
+    a {
+        text-decoration: none;
+        color: #007bff;
+        cursor: pointer;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 </style>
