@@ -149,12 +149,10 @@
             informazioni personali, preparandoci così al meglio per il mondo del
             lavoro. Questo è il mio:
         </p>
-        
-        <a href="https://raw.githubusercontent.com/Alessandro-Scattaglia/Portfolio_svelte/main/static/Scattaglia_CV.pdf" download="Scattaglia_CV.pdf" class="cv">
-            Scarica il mio CV
-        </a>
+
+        <a href="Scattaglia_CV.zip" download class="cv"> Scarica il mio CV </a>
         <br />
-        
+
         <footer>
             <h4>Copyright &copy; Alessandro Scattaglia</h4>
         </footer>
