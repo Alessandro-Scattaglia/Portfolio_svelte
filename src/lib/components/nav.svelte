@@ -73,7 +73,12 @@
     @media all and (max-width: 480px) {
         .topnav {
             width: 100%;
+
         }
+        .topnav a{
+            float: right;
+        }
+
          .logo {
             display: none; 
         }
