@@ -1,0 +1,31 @@
+import{s as z,n as P}from"../chunks/scheduler.e108d1fd.js";import{S as y,i as E,g as c,s as v,r as I,h as p,j as M,y as g,c as h,u as A,f as _,k as d,a as C,x as r,v as T,d as L,t as Q,w as H}from"../chunks/index.a21d6cee.js";import{N as k}from"../chunks/nav.f0d04b22.js";function j(w){let e,i,q='<h1 class="svelte-1x8qp2f">2022-2023</h1>',m,s,f,o,x=`<h2 class="svelte-1x8qp2f">LETTERE ITALIANE</h2> <p class="svelte-1x8qp2f">La pena di morte è un argomento di grande rilevanza e dibattito in
+            tutto il mondo, incluso l&#39;Italia. Quest&#39;anno, ci siamo concentrati
+            principalmente sulla sua abolizione e sulle opinioni di Cesare
+            Beccaria, un eminente giurista italiano del XVIII secolo noto per il
+            suo influsso sulla filosofia del diritto penale.</p> <div class="immg1 svelte-1x8qp2f"><img class="img1 svelte-1x8qp2f" src="/Portfolio_svelte/immagini/beccaria.jpg" alt="beccaria.jpg"/></div> <p class="svelte-1x8qp2f">Cesare Beccaria è famoso per il suo libro &quot;Dei delitti e delle
+            pene&quot;, pubblicato nel 1764. In quest&#39;opera, Beccaria ha condannato
+            fortemente l&#39;uso della pena di morte e ha avanzato argomentazioni
+            contro di essa. Egli sosteneva che la pena di morte non fosse
+            efficace come deterrente per i crimini e che rappresentasse una
+            forma di tortura inutile e crudele. <br class="svelte-1x8qp2f"/><br class="svelte-1x8qp2f"/>Beccaria ha anche
+            sottolineato l&#39;importanza della proporzionalità tra il crimine
+            commesso e la pena inflitta, sostenendo che le pene dovrebbero
+            essere determinate in modo razionale e non basate su vendetta o
+            crudeltà. Le idee di Beccaria hanno influenzato significativamente
+            la legislazione penale in molti paesi, compresa l&#39;Italia, dove la
+            pena di morte è stata abolita nel 1889.<br class="svelte-1x8qp2f"/><br class="svelte-1x8qp2f"/>
+            Ho anche fatto un tema riguardante la pena di morte durante quest&#39;anno.
+            Ecco a voi di seguito il tema.</p> <iframe title="presentazione1" src="https://docs.google.com/document/d/e/2PACX-1vSJfgu53E-QZ_zfQs1g7-_KVQ4h92qQYx0QXcTPMQElNV84TLyUKwQZF8-eIom3ejHP124riovYizT7/pub?embedded=true" width="100%" height="500px" style="border: none;" class="svelte-1x8qp2f"></iframe> <p class="svelte-1x8qp2f">Inoltre, per lettere italiane, abbiamo scelto un personaggio legato
+            alle <a href="https://it.wikipedia.org/wiki/Movimento_antimafia" target="_blank" class="svelte-1x8qp2f">Agende Rosse</a> o ad esse collegato, ed io ho optato per Padre
+            Pino Puglisi. Successivamente, abbiamo preparato una presentazione
+            da mostrare alla classe.</p> <iframe title="presentazione2" src="https://docs.google.com/presentation/d/e/2PACX-1vQ5Ff3OYdmy-UgyX9-bq4Mv3mx7Rc4APhFi1l5G0Mweho5c3W-dFwCAFgPPQQ7hCg/embed?start=true&amp;loop=true&amp;delayms=3000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="svelte-1x8qp2f"></iframe> <h2 class="svelte-1x8qp2f">INGLESE</h2> <p class="svelte-1x8qp2f">Durante la materia di inglese di quest&#39;anno, abbiamo realizzato delle presentazioni PowerPoint su argomenti a nostra scelta legati all&#39;informatica. Ho scelto di parlare del <a href="https://it.wikipedia.org/wiki/Metaverso" target="_blank" class="svelte-1x8qp2f">Metaverso</a>.<br class="svelte-1x8qp2f"/>
+            Ora vi presenterò il mio PowerPoint sul Metaverso che ho preparato.</p> <iframe title="presentazione3" src="https://docs.google.com/presentation/d/e/2PACX-1vQ58p0XMuVoi4tmcnpGMOfmbUyB-jLEPZEHCg1YrG1i2aUcSO7EYmmjdjRrfAgLiy0l1B1TwW07JNdO/embed?start=true&amp;loop=true&amp;delayms=3000" frameborder="0" width="100%" height="569px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="svelte-1x8qp2f"></iframe> <h2 class="svelte-1x8qp2f">INFORMATICA</h2> <p class="svelte-1x8qp2f">Durante la materia di Informatica di quest&#39;anno abbiamo approfondito
+            il funzionamento del codice fiscale e degli algoritmi che ci stanno
+            dietro. Abbiamo quindi creato due programmi in grado di generare il
+            codice fiscale, date le informazioni necessarie dall&#39;utente, e
+            estrapolarle dato un codice fiscale sempre dall&#39;utente. Ecco sotto i
+            due programmi funzionanti prendendo come esempio i miei dati.</p> <p class="svelte-1x8qp2f">Questo video rappresenta l&#39;estrapolazione dei dati dopo aver
+            inserito il codice fiscale.</p> <div class="svelte-1x8qp2f"><video width="100%" height="300" controls="" class="svelte-1x8qp2f"><source src="/Portfolio_svelte/immagini/estrapola_dati_CF.mp4" type="video/mp4" class="svelte-1x8qp2f"/>
+                Il tuo browser non supporta il tag video.</video></div> <p class="svelte-1x8qp2f">Mentre questo video rappresenta la generazione del codice fiscale
+            secondo le informazioni fornite.</p> <video width="100%" height="300" controls="" class="svelte-1x8qp2f"><source src="/Portfolio_svelte/immagini/genera_codice_fiscale.mp4" type="video/mp4" class="svelte-1x8qp2f"/>
+            Il tuo browser non supporta il tag video.</video>`,u,l,b='<h4 class="svelte-1x8qp2f">Copyright © Alessandro Scattaglia</h4>',n;return s=new k({}),{c(){e=c("main"),i=c("header"),i.innerHTML=q,m=v(),I(s.$$.fragment),f=v(),o=c("div"),o.innerHTML=x,u=v(),l=c("footer"),l.innerHTML=b,this.h()},l(t){e=p(t,"MAIN",{class:!0});var a=M(e);i=p(a,"HEADER",{class:!0,"data-svelte-h":!0}),g(i)!=="svelte-1jtxvfd"&&(i.innerHTML=q),m=h(a),A(s.$$.fragment,a),f=h(a),o=p(a,"DIV",{class:!0,"data-svelte-h":!0}),g(o)!=="svelte-1nh0vqe"&&(o.innerHTML=x),u=h(a),l=p(a,"FOOTER",{class:!0,"data-svelte-h":!0}),g(l)!=="svelte-101yvw3"&&(l.innerHTML=b),a.forEach(_),this.h()},h(){d(i,"class","svelte-1x8qp2f"),d(o,"class","centro svelte-1x8qp2f"),d(l,"class","svelte-1x8qp2f"),d(e,"class","svelte-1x8qp2f")},m(t,a){C(t,e,a),r(e,i),r(e,m),T(s,e,null),r(e,f),r(e,o),r(e,u),r(e,l),n=!0},p:P,i(t){n||(L(s.$$.fragment,t),n=!0)},o(t){Q(s.$$.fragment,t),n=!1},d(t){t&&_(e),H(s)}}}class $ extends y{constructor(e){super(),E(this,e,null,j,z,{})}}export{$ as component};
