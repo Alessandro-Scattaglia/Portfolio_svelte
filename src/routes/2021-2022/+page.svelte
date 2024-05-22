@@ -55,7 +55,11 @@
             contro la violenza di genere.
         </p>
         <div class="immg1">
-            <img class="img1" src="/Portfolio_svelte/immagini/donna.jpg" alt="donna.jpg" />
+            <img
+                class="img1"
+                src="/Portfolio_svelte/immagini/donna.jpg"
+                alt="donna.jpg"
+            />
         </div>
         <p>
             Abbiamo discusso approfonditamente delle implicazioni di questo
@@ -64,7 +68,10 @@
             maggiore parità di genere e l'emancipazione delle donne. L'analisi
             di queste tematiche ci ha offerto una prospettiva più ampia sulla
             lotta per i diritti delle donne e sulle sfide ancora presenti nella
-            ricerca dell'uguaglianza di genere.
+            ricerca dell'uguaglianza di genere. Va ricordato che il diritto di
+            voto per le donne in Italia è stato ottenuto nel 1946, segnando una
+            svolta fondamentale nella storia del paese e nella partecipazione
+            delle donne alla vita politica.
         </p>
         <h2>INFORMATICA</h2>
         <p>

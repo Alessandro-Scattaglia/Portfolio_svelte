@@ -76,11 +76,12 @@
 
         }
         .topnav a{
-            float: right;
+            font-size: 13px;
         }
 
          .logo {
             display: none; 
         }
+
     }
 </style>

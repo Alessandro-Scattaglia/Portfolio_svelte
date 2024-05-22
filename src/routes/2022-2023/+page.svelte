@@ -50,7 +50,7 @@
         ></iframe>
         <p>
             Inoltre, per lettere italiane, abbiamo scelto un personaggio legato
-            alle "Agende rosse" o ad esse collegato, ed io ho optato per Padre
+            alle <a href="https://it.wikipedia.org/wiki/Movimento_antimafia" target="_blank">Agende Rosse</a> o ad esse collegato, ed io ho optato per Padre
             Pino Puglisi. Successivamente, abbiamo preparato una presentazione
             da mostrare alla classe.
         </p>
@@ -224,17 +224,6 @@
         }
 
         .img1 {
-            width: 100%;
-            height: auto;
-        }
-
-        .container {
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .container iframe {
             width: 100%;
             height: auto;
         }
